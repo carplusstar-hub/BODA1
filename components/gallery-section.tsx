@@ -1,5 +1,5 @@
 const photos = [
-  { query: "romantic couple beach sunset Mallorca", span: "col-span-2 row-span-2" },
+  { query: "romantic couple beach sunset Madrid", span: "col-span-2 row-span-2" },
   { query: "engagement ring romantic hand close up", span: "col-span-1 row-span-1" },
   { query: "couple laughing together outdoor natural", span: "col-span-1 row-span-1" },
   { query: "romantic couple walking beach golden hour", span: "col-span-1 row-span-2" },

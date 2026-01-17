@@ -1,42 +1,42 @@
-import { MapPin, Clock, Shirt, Gift } from "lucide-react"
+import { MapPin, Clock, Shirt, Gift, Church } from "lucide-react"
 
 const details = [
-  {
-    icon: MapPin,
-    title: "Ceremonia & Celebración",
-    content: ["Finca Son Marroig", "Carretera Valldemossa-Deià, Km 65.5", "07179 Deià, Mallorca"],
-    link: {
-      label: "Ver en Google Maps",
-      url: "https://maps.google.com",
-    },
-  },
   {
     icon: Clock,
     title: "Horario",
     content: [
       "17:00 - Llegada de invitados",
-      "17:30 - Ceremonia civil",
+      "17:30 - Ceremonia",
       "19:00 - Cóctel de bienvenida",
       "21:00 - Cena y fiesta",
     ],
   },
   {
-    icon: Shirt,
-    title: "Código de vestimenta",
-    content: ["Elegante / Formal", "La ceremonia será al aire libre,", "recomendamos zapatos cómodos."],
+    icon: Church,
+    title: "Iglesia",
+    content: ["Ermita de Nuestra Señora de la Paz", "C. de la Begonia, 277, 28109, Alcobendas, Madrid."],
+    link: {
+      label: "Ver en Google Maps",
+      url: "https://www.google.com/maps/place/Ermita+de+Nuestra+Se%C3%B1ora+de+la+Paz/@40.5243406,-3.640027,16z/data=!4m16!1m9!3m8!1s0xd422c425b12830d:0xb8e741ab667e2cbd!2sErmita+de+Nuestra+Se%C3%B1ora+de+la+Paz!8m2!3d40.5243406!4d-3.640027!9m1!1b1!16s%2Fg%2F11x9jgjh9!3m5!1s0xd422c425b12830d:0xb8e741ab667e2cbd!8m2!3d40.5243406!4d-3.640027!16s%2Fg%2F11x9jgjh9?hl=es&entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoASAFQAw%3D%3D",
+    },
+  },
+  {
+    icon: MapPin,
+    title: "Banquete",
+    content: ["Finca Ronda", "Calle Diseminado, 160, 28770 Madrid"],
+    link: {
+      label: "Ver en Google Maps",
+      url: "https://www.google.com/maps/place/Finca+Ronda/@40.683,-3.66029,17z/data=!4m16!1m9!3m8!1s0xd43d1340275b381:0xe8264e24b036280!2sFinca+Ronda!8m2!3d40.682996!4d-3.6577151!9m1!1b1!16s%2Fg%2F11clgm0n3h!3m5!1s0xd43d1340275b381:0xe8264e24b036280!8m2!3d40.682996!4d-3.6577151!16s%2Fg%2F11clgm0n3h?hl=es&entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoASAFQAw%3D%3D",
+    },
   },
   {
     icon: Gift,
-    title: "Lista de bodas",
+    title: "Regalos",
     content: [
-      "Vuestra presencia es el mejor regalo.",
+      "Vuestra presencia es lo más importante para nosotros.",
       "Si deseáis tener un detalle,",
-      "podéis contribuir a nuestra luna de miel.",
+      "podéis hacerlo de la forma que os resulte mas cómoda.",
     ],
-    link: {
-      label: "Ver lista de bodas",
-      url: "#",
-    },
   },
 ]
 
@@ -86,10 +86,10 @@ export function DetailsSection() {
         {/* Map */}
         <div className="mt-12 rounded-lg overflow-hidden shadow-sm border border-border/50">
           <div className="aspect-[21/9] bg-muted relative">
-            <img src="/mallorca-spain-map-finca-wedding-venue-aerial-view.jpg" alt="Mapa de la ubicación" className="w-full h-full object-cover" />
+            <img src="/fotofinca1.jpg" alt="Mapa de la ubicación" className="w-full h-full object-cover" />
             <div className="absolute inset-0 flex items-center justify-center bg-black/20">
               <a
-                href="https://maps.google.com"
+                href="https://www.google.com/maps/place/Finca+Ronda/@40.683,-3.66029,17z/data=!4m16!1m9!3m8!1s0xd43d1340275b381:0xe8264e24b036280!2sFinca+Ronda!8m2!3d40.682996!4d-3.6577151!9m1!1b1!16s%2Fg%2F11clgm0n3h!3m5!1s0xd43d1340275b381:0xe8264e24b036280!8m2!3d40.682996!4d-3.6577151!16s%2Fg%2F11clgm0n3h?hl=es&entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoASAFQAw%3D%3D"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-card px-6 py-3 rounded-full font-sans text-sm font-medium text-foreground shadow-lg hover:shadow-xl transition-shadow"

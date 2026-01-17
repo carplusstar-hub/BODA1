@@ -7,7 +7,7 @@ export function HeroSection() {
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `url('/romantic-beach-sunset-wedding-couple-silhouette-me.jpg')`,
+          backgroundImage: `url('/PabloyCarmen.jpg')`,
         }}
       >
         <div className="absolute inset-0 bg-black/40" />
@@ -16,10 +16,10 @@ export function HeroSection() {
       {/* Content */}
       <div className="relative z-10 text-center text-white px-6 max-w-4xl mx-auto">
         <p className="text-sm md:text-base font-sans tracking-[0.3em] uppercase mb-6 animate-fade-in">Nos casamos</p>
-        <h1 className="font-serif text-6xl md:text-8xl lg:text-9xl font-light mb-6 tracking-wide">Mar & Jaume</h1>
+        <h1 className="font-serif text-6xl md:text-8xl lg:text-9xl font-light mb-6 tracking-[0.1em] italic">Carmen & Pablo</h1>
         <div className="w-24 h-px bg-white/60 mx-auto mb-6" />
-        <p className="text-xl md:text-2xl font-serif font-light tracking-wide mb-2">14 de Septiembre, 2025</p>
-        <p className="text-base md:text-lg font-sans tracking-widest uppercase opacity-80">Mallorca, España</p>
+        <p className="text-xl md:text-2xl font-serif font-light tracking-wide mb-2">13 de Junio de 2026</p>
+        <p className="text-base md:text-lg font-sans tracking-widest uppercase opacity-80">Madrid, España</p>
       </div>
 
       {/* Scroll Indicator */}

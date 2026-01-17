@@ -51,7 +51,7 @@ export function RsvpSection() {
           <p className="text-sm font-sans tracking-[0.3em] uppercase text-muted-foreground mb-4">Confirmación</p>
           <h2 className="font-serif text-4xl md:text-5xl font-light text-foreground mb-6">RSVP</h2>
           <div className="w-16 h-px bg-primary mx-auto mb-6" />
-          <p className="text-muted-foreground">Por favor, confirma tu asistencia antes del 1 de Agosto de 2025</p>
+          <p className="text-muted-foreground">Por favor, confirma tu asistencia antes del 1 de Mayo de 2026</p>
         </div>
 
         <form onSubmit={handleSubmit} className="bg-card p-8 md:p-12 rounded-lg shadow-sm border border-border/50">

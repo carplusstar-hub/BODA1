@@ -5,9 +5,7 @@ import { Menu, X } from "lucide-react"
 
 const navItems = [
   { label: "Inicio", href: "#inicio" },
-  { label: "Nuestra Historia", href: "#historia" },
   { label: "Detalles", href: "#detalles" },
-  { label: "Galería", href: "#galeria" },
   { label: "RSVP", href: "#rsvp" },
 ]
 
@@ -33,11 +31,11 @@ export function Navigation() {
         <div className="flex items-center justify-between">
           <a
             href="#inicio"
-            className={`font-serif text-2xl font-medium tracking-wide transition-colors ${
+            className={`font-serif text-2xl font-light tracking-[0.1em] italic transition-colors ${
               isScrolled ? "text-foreground" : "text-white"
             }`}
           >
-            M & J
+            C & P
           </a>
 
           {/* Desktop Navigation */}
