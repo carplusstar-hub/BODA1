@@ -9,7 +9,7 @@ interface VideoIntroProps {
   videoSrc?: string
 }
 
-export function VideoIntro({ children, videoSrc = "/images/videointro.mp4" }: VideoIntroProps) {
+export function VideoIntro({ children, videoSrc = "/videointro.mp4" }: VideoIntroProps) {
   const [showVideo, setShowVideo] = useState(true)
   const [isPlaying, setIsPlaying] = useState(false)
   const [isFadingOut, setIsFadingOut] = useState(false)
@@ -30,7 +30,7 @@ export function VideoIntro({ children, videoSrc = "/images/videointro.mp4" }: Vi
 
   const handleVideoEnd = useCallback(() => {
     setIsFadingOut(true)
-    setTimeout(() => setShowVideo(false), 1000)
+    setTimeout(() => setShowVideo(false), 500)
   }, [])
 
   if (!showVideo) {
@@ -41,7 +41,7 @@ export function VideoIntro({ children, videoSrc = "/images/videointro.mp4" }: Vi
     <>
       {/* Video Overlay - shows first frame, plays on click */}
       <div
-        className={`fixed inset-0 z-50 cursor-pointer transition-opacity duration-1000 ${
+        className={`fixed inset-0 z-50 cursor-pointer transition-opacity duration-500 ${
           isFadingOut ? "opacity-0 pointer-events-none" : "opacity-100"
         }`}
         onClick={handleScreenClick}

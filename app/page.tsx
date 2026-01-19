@@ -9,9 +9,7 @@ import { Navigation } from "@/components/navigation"
 import { VideoIntro } from "@/components/video-intro"
 
 const INTRO_VIDEO = [
-  "https://",
-  "hebbkx1anhila5yf.public.blob.vercel-storage.com/",
-  "videointro-4HleA3ngrt7s3CVQ6tfTaUC8Sg8cso.mp4"
+  "/videointro.mp4"
 ].join("")
 
 export default function Home() {
