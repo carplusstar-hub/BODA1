@@ -40,7 +40,7 @@ export function CountdownSection() {
   }, [])
 
   return (
-    <section id="countdown" className="py-24" style={{ backgroundColor: '#787f5c' }}>
+    <section id="countdown" className="py-24" style={{ backgroundColor: '#0a81c542' }}>
       <div className="max-w-5xl mx-auto px-6 text-center">
         <h1 className="font-serif text-5xl md:text-7xl font-light text-white mb-4">Cuenta atrás</h1>
         <p className="font-serif text-xl md:text-2xl text-white/90 mb-12">Para el día más especial de nuestras vidas</p>

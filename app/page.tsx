@@ -3,7 +3,7 @@ import { CountdownSection } from "@/components/countdown-section"
 import { OurStorySection } from "@/components/our-story-section"
 import { DetailsSection } from "@/components/details-section"
 import { GallerySection } from "@/components/gallery-section"
-import { RsvpSection } from "@/components/rsvp-section"
+import { ContactForm } from "@/components/rsvp-section"
 import { Footer } from "@/components/footer"
 import { Navigation } from "@/components/navigation"
 import { VideoIntro } from "@/components/video-intro"
@@ -21,7 +21,7 @@ export default function Home() {
       <CountdownSection />
       <OurStorySection />
       <DetailsSection />
-      <RsvpSection />
+      <ContactForm />
       <Footer />
     </main>
     </VideoIntro>

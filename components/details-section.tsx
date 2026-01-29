@@ -42,7 +42,7 @@ const details = [
 
 export function DetailsSection() {
   return (
-    <section id="detalles" className="py-24 bg-secondary">
+    <section id="detalles" className="py-24" style={{ backgroundColor: '#ff990a54' }}>
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-16">
           <p className="text-sm font-sans tracking-[0.3em] uppercase text-muted-foreground mb-4">Información</p>
