@@ -5,10 +5,10 @@ const details = [
     icon: Clock,
     title: "Horario",
     content: [
-      "17:00 - Llegada de invitados",
-      "17:30 - Ceremonia",
-      "19:00 - Cóctel de bienvenida",
-      "21:00 - Cena y fiesta",
+      "17:30 - Llegada de invitados a la iglesia",
+      "18:00 - Ceremonia",
+      "20:00 - Cóctel de bienvenida en la finca",
+      "22:00 - Cena y fiesta",
     ],
   },
   {

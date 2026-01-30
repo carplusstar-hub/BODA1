@@ -41,7 +41,7 @@ export function ContactForm() {
           <p className="text-sm font-sans tracking-[0.3em] uppercase text-muted-foreground mb-4">Confirmación</p>
           <h2 className="font-serif text-4xl md:text-5xl font-light text-foreground mb-6">RSVP</h2>
           <div className="w-16 h-px bg-primary mx-auto mb-6" />
-          <p className="text-muted-foreground">Por favor, confirma tu asistencia antes del 1 de Mayo de 2026</p>
+          <p className="text-muted-foreground">Por favor, confirma tu asistencia lo antes posible</p>
           </div>
         </div>
     
@@ -50,13 +50,13 @@ export function ContactForm() {
     <div className="space-y-6">
             <div className="grid md:grid-cols-3 gap-6">
                
-              <div className="space-y-3">
+              <div className="space-y-3 ">
                 <Label htmlFor="name" className="text-foreground">
-                  Nombre *
+                  Nombre y apellido (añadir también nombre de acompañantes) *
                 </Label>
-                <textarea className="bg-background ;"
-                  id="message"
-                  name="message"
+                <textarea className="bg-background w-full hover:bg-primary/90 py-2 text-base font-medium tracking-wide;block p-2 rounded-md" required
+                  id="nombre"
+                  name="nombre"
                 />
               </div>
 
@@ -64,19 +64,19 @@ export function ContactForm() {
                 <Label htmlFor="name" className="text-foreground">
                   Alergias *
                 </Label>
-                <textarea className="bg-background"
-                  id="message"
-                  name="message"
+                <textarea className="bg-background w-full hover:bg-primary/90 py-2 text-base font-medium tracking-wide;block p-2 rounded-md" required
+                  id="alergias"
+                  name="alergias"
                 />
               </div>
 
               <div className="space-y-3">
                 <Label htmlFor="name" className="text-foreground">
-                  Asistencia *
+                  Asistencia (Si/No)*
                 </Label>
-                <textarea className="bg-background"
-                  id="message"
-                  name="message"
+                <textarea className="bg-background w-full hover:bg-primary/90 py-2 text-base font-medium tracking-wide;block p-2 rounded-md" required
+                  id="asistencia"
+                  name="asistencia"
                 />
               </div>
               
@@ -87,7 +87,7 @@ export function ContactForm() {
               type="submit"
               disabled={state.submitting}
               className="w-full bg-primary text-primary-foreground hover:bg-primary/90 py-6 text-base font-medium tracking-wide"
-            >"Confirmar asistencia"
+            >Enviar respuesta
             </Button>
           </div>
     </form>
