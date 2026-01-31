@@ -12,10 +12,10 @@ export function OurStorySection() {
         {/* Couple Photo */}
         <div className="relative mb-20">
           <div className="aspect-[4/3] md:aspect-[16/9] overflow-hidden rounded-lg">
-            <img src="/videoboda.gif" alt="Carmen y Pablo" className="w-full h-full object-cover" />
+            <img src="/videoboda.png" alt="Carmen y Pablo" className="w-full h-full object-cover" />
           </div>
-          <div className="absolute -bottom-6 left-1/2 -translate-x-1/2 bg-card p-4 rounded-full shadow-lg border border-border">
-            <Heart className="w-8 h-8 text-primary fill-primary/20" />
+          <div className="absolute -bottom-12 left-1/2 -translate-x-1/2 bg-card p-3 rounded-full shadow-lg border border-border">
+            <Heart color="#3e9392" className="w-8 h-8 text-primary fill-primary/20" />
           </div>
         </div>
 

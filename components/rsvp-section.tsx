@@ -1,15 +1,9 @@
 "use client"
 
-import type React from "react"
-
-import { useState } from "react"
 import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Textarea } from "@/components/ui/textarea"
 import { Label } from "@/components/ui/label"
-import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import { Check, Loader2 } from "lucide-react"
-import { useForm, ValidationError } from '@formspree/react';
+import { useForm} from '@formspree/react';
 
 
 export function ContactForm() {
@@ -35,7 +29,21 @@ export function ContactForm() {
 
   return (
 
-    <section id="rsvp" className="py-24" style={{ backgroundColor: '#ff990a54' }}>
+    <section id="rsvp" className="py-5" style={{ backgroundColor: '#ff990a54' }}>
+      <div className="max-w-2xl mx-auto px-6">
+        <div className="text-center mb-12">
+          <p className="text-sm font-sans tracking-[0.3em] uppercase text-muted-foreground mb-4">Añade aquí la musica que te gustaria escuchar en nuestra fiesta</p>
+            <a href="https://open.spotify.com/playlist/3aW4TFzlQdwN7UTjo0lxOS?si=CynGSpBIQ2-tMIu0Mdnf0w" className="w-full h-full object-cover flex items-center justify-center">
+              <div className="aspect-[21/9] relative w-30 h-full mb-6">
+                <img src="/logospotify.png" alt="Mapa de la ubicación" className="w-full h-full object-cover flex items-center justify-center"/>
+                  <div className="absolute inset-0 flex items-center justify-center"> </div>
+                  </div>
+                  </a>
+                  <div className="w-20 h-px mb-10 bg-primary mx-auto" />
+                  </div>
+                  </div>
+
+
       <div className="max-w-2xl mx-auto px-6">
         <div className="text-center mb-12">
           <p className="text-sm font-sans tracking-[0.3em] uppercase text-muted-foreground mb-4">Confirmación</p>
