@@ -34,8 +34,8 @@ const details = [
     title: "Regalos",
     content: [
       "Vuestra presencia es lo más importante para nosotros.",
-      "Si deseáis tener un detalle,",
-      "podéis hacerlo de la forma que os resulte mas cómoda.",
+      "Si deseáis tener un detalle, podéis hacerlo de la forma que os resulte mas cómoda. Nuestra cuenta bancaria es:",
+      "IBAN: ES08 0128 8700 1401 0998 9494"
     ],
   },
 ]
