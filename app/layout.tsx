@@ -30,6 +30,7 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body className={`${cormorant.variable} ${montserrat.variable} font-sans antialiased`}>
+        <link rel="icon" href="/corazon.ico" />
         {children}
         <Analytics />
       </body>
